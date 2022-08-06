@@ -89,4 +89,9 @@ type PopularTag = string;
 
 const popularTags : PopularTag[] = ['India' , 'Italy', '6']
 
+//Union + Type Aliases
 
+type MaybePopularTag = PopularTag | null
+
+
+const chinaTag: MaybePopularTag = "China"
