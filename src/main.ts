@@ -80,3 +80,13 @@ let userX: UserInterface | null = null;
 let someProp :string | null |number | [] | object =null
 
 
+//Type aliases
+
+type ID = string;
+type PopularTag = string;
+
+
+
+const popularTags : PopularTag[] = ['India' , 'Italy', '6']
+
+
