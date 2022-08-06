@@ -58,3 +58,25 @@ greetings(){
 } 
 
 
+//Types and Unions
+
+// Union - operator to combine data types
+
+let username:string = 'Agrit'
+ 
+let pageName: string | number = '1'
+
+let errorMessage : string | null = null;
+
+
+interface UserInterface {
+    firstName : string,
+    lastName: string
+}
+
+let userX: UserInterface | null = null;
+
+//bad code 
+let someProp :string | null |number | [] | object =null
+
+
