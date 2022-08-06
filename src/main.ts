@@ -37,18 +37,24 @@ age :22
 //Interfaces
 
 interface User {
-    name:string, age:number
+    name:string, 
+    age?:number,
+    greetings(): string
 }
 
 const user3 :User = {
     name: 'Agrit',
     age: 20,
-   
+   greetings(){
+    return 'Hello' + name
+   }
 }
 
 const user4 :User= {
 name: 'Agrit Tiwari',
-
+greetings(){
+    return 'Hello' + name
+   }
 } 
 
 
